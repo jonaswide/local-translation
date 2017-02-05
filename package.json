@@ -1,0 +1,11 @@
+{
+  "name": "local-translation",
+  "version": "1.0.0",
+  "description": "Local implementation of translation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas Wideking",
+  "license": "ISC"
+}
