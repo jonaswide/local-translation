@@ -1,4 +1,4 @@
-export default const translation = {
+const translation = {
   title: {
     en: "Goats are beautiful",
     dk: "Geder er smukke",
@@ -6,8 +6,10 @@ export default const translation = {
   },
 
   text: {
-    en: "Some other bla bla bla",
-    dk: "Some other bla bla bla",
-    fr: "Some other bla bla bla"
+    en: "To be or not to be. That's the question.",
+    dk: "At være eller ikke at være. Det er spørgsmålet.",
+    fr: "Etre ou n'être pas. C'est la question."
   }
 }
+
+export default translation
