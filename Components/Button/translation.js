@@ -2,7 +2,7 @@ const translation = {
   cta: {
     en: "Change language to",
     dk: "Skift sprog til",
-    fr: "Changer de langue en"
+    fr: "Changer la langue en"
   },
 
   english: {

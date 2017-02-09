@@ -8,7 +8,7 @@ const translation = {
   text: {
     en: "To be or not to be. That's the question.",
     dk: "At være eller ikke at være. Det er spørgsmålet.",
-    fr: "Etre ou n'être pas. C'est la question."
+    fr: "Être ou ne pas être. Telle est la question."
   }
 }
 
