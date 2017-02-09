@@ -55,15 +55,15 @@ export default Text
 ```
 This repo is completely unopinionated on how you create your components - and in which framework, if any at all. This example is just a stateless component receiving props from its parent React container.
 
-The only thing necessary to be able to is to:
-* Import a translation file
-* Write text to the DOM
-* Read active lang to determine which language to use (see next chapter)
+The only thing you need to do is:
+* Import a translation file.
+* Write text to the DOM.
+* Read active lang to determine which language to use (see next chapter).
 
 
 ## Handle active language
 In this example the active language is simply handled in the state of the parent container, `app.js`, and passed to its children as props.
-You can technically handle the active language in whatever way you're used to handle the state of your app.
+You can technically handle the active language in whatever way you're used to handle the state of your app. If this is not clear I recommend you to [read the Redux documentation](http://redux.js.org/ "Redux documentation").
 
 ### Redux (or whatever Flux)
 If you're using Redux or another Flux opinionated state handling philosophy you can handle the active lang in the root of the store which is then passed to the respective children as props.
@@ -94,9 +94,9 @@ Haha
 
 ## Pros and cons
 ### Pros
-* Easy to initialize because you can slowly implement it for separate components without affecting any existing code
-* Very convenient having all the translations for the same piece of content together
-* Universal content can be kept in an high level `translation.js` file and be imported when neccesary.
+* Easy to initialize because you can slowly implement it for separate components without affecting any existing code.
+* Very convenient having all the translations for the same piece of content together compared to different files.
+* Universal content can be kept in a high level `translation.js` file and be imported when necessary.
 * All javascript, so no need for HTTP requests for JSON files.
 
 ### Cons
