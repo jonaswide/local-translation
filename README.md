@@ -85,7 +85,7 @@ You can write the active lang to the browser's local storage like this:
 localStorage.setItem('lang', 'fr')
 
 const lang = localStorage.getItem("lang") // "fr"
-document.getElementById("result").innerHTML = translation.text[lang]
+document.getElementById('text').innerHTML = translation.text[lang]
 ```
 
 ### jQuery
