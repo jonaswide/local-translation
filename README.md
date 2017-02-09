@@ -63,10 +63,10 @@ The only thing you need to do is:
 
 ## Handle active language
 In this example the active language is simply handled in the state of the parent container, `app.js`, and passed to its children as props.
-You can technically handle the active language in whatever way you're used to handle the state of your app. If this is not clear I recommend you to [read the Redux documentation](http://redux.js.org/ "Redux documentation").
+You can technically handle the active language in whatever way you're used to handle the state of your app.
 
 ### Redux (or whatever Flux)
-If you're using Redux or another Flux opinionated state handling philosophy you can handle the active lang in the root of the store which is then passed to the respective children as props.
+If you're using Redux or another Flux opinionated state handling philosophy you can handle the active lang in the root of the store which is then passed to the respective children as props. If this is not clear I recommend you to [read the Redux documentation](http://redux.js.org/ "Redux documentation").
 
 ### URL
 If your website is not based on a JS environment but perhaps some CMS, PHP Symfony or whatever, and you need to access the active language from elsewhere, some websites choose to prefix the URL with a lang code.
