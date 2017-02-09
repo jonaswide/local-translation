@@ -44,6 +44,8 @@ export default translation
 
 To output the translated content, simply import the translation file and refer to the piece of content you desire:
 ```javascript
+// Componenets/Text/index.js
+
 import translation from './translation'
 
 export const Text = (props) => {
