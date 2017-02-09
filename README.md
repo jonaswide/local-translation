@@ -89,7 +89,6 @@ document.getElementById('text').innerHTML = translation.text[lang]
 ```
 
 ### jQuery
-Haha
 
 
 ## Pros and cons
